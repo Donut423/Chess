@@ -1,0 +1,182 @@
+body {
+    background-color: #0e0e0e;
+}
+
+fun {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 70px;
+    color: #ffffff;
+    margin-left: 405px;
+}
+
+p {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 40px;
+    color: #00ffff;
+    margin-left: 15px;
+}
+
+g {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 470px;
+}
+
+v {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+iframe {
+    margin-left: 510px;
+    height: 90px;
+    width: 300px;
+}
+
+img {
+    width: 70px;
+    height: 55px;
+}
+
+why {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 60px;
+    color: #15ff00;
+    margin-left: 40px;
+}
+
+titled {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 550px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px rgb(109, 109, 109);
+    margin-left: 42%;
+}
+
+.con {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(255, 89, 0);
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 1%;
+    transition: background-color 1.3s;
+}
+
+.con:hover {
+    background-color: rgb(140, 0, 255);
+    color: rgb(0, 0, 0);
+}
+
+.gt {
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    transition: background-color 1s;
+    margin-left: 30px;
+}
+
+.gt:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+}
+
+.ybf {
+    background-color: rgb(255, 27, 54);
+    color: rgb(35, 35, 35);
+    transition: background-color 0.5s;
+    margin-left: 550px;
+}
+
+.ybf:hover {
+    background-color: #ff9898;
+    color: rgb(255, 255, 255);
+}
+
+.fade {
+    background-color: rgb(1, 87, 246);
+    color: #fff;
+    transition: background-color 1s;
+}
+
+.fade:hover {
+    background-color: rgb(62, 255, 81);
+    color: rgb(113, 113, 113);
+}
+
+sc {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.yt {
+    color: #ff0000;
+}
+
+.dc {
+    color: #005eff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .center h1{
+    font-family: Inter;
+    font-weight: bold;
+    margin-left: 405px; 
+    font-size: 70px;
+    color: white;
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%,
+                rgb(0,255,255) 21.4%, cyan 28.56%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 4s linear infinite forwards;
+  }
+  @keyframes slide {
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 600vw;
+    }
+  }
